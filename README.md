@@ -8,4 +8,4 @@ Etudiant 4 : [KHALLOUK Elias](https://github.com/ekhallou-iut90)<br>
 Etudiant 5 : [EL HAJJAJI Mohammed](https://github.com/MohakeMKS)<br>
 Etudiant 6 : [TABOADA Nôe](https://github.com/nt579176)<br>
 <br>
-Produits mis en ventes : montres
+Produit mis en vente : montre
