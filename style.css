@@ -1,0 +1,71 @@
+
+
+/*------------------------------------------------*/
+/*               S I T E  E N T I E R             */
+/*------------------------------------------------*/
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    position: relative;
+    margin-left: 85%;
+}
+
+a::after {
+    content: '';
+    transform-origin: 0 0; 
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .5em; 
+    background: #78ab4e;
+    z-index: -1;
+    opacity: 0.8;
+    transition: transform .3s;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
+
+.accordion-flush .accordion-button {
+    background-color: white;
+}
+
+.accordion-flush .collapsed{
+    background-color: white;
+}
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*                   C A R T  1                   */
+/*------------------------------------------------*/
+.cart1_h1{
+    margin-top: 5%;
+}
+
+.cart1_ligne {
+    height: 3px;
+    background: black;
+}
+
+.cart1_prix{
+    font-size: xx-large;
+}
+
+
+.cart1_titre3{
+    margin-top: 10%;
+}
+
+.cart1_deplier{
+    color: gray; font-size: large;
+}  
+/*------------------------------------------------*/
+/*------------------------------------------------*/
