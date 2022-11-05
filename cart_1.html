@@ -5,8 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cart 1</title>
+        <link rel="icon" href="img/icon_montre.png" type="image/gif" sizes="16x16">
         <!--STYLE CSS-->
-        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/styleCart1.css" rel="stylesheet" >
+        <link rel="stylesheet" href="css/footer.css">
         <!--STYLE ECRITURE-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,80 +18,139 @@
         <!--NAV BAR-->
         <div style="background-color: #000"><br><br><br></div>
 
-        <!--LIGNE POUR TITRE-->
-        <div class="container-flex flex-wrap justify-content-space-evenly">
-            <div class="item item-width">
-                <div class="cart1_h1"><b>Your cart</b></div> <br>
-                <h3>Not ready to checkout? Continue Shopping</h3>
-            </div>
-            <div class="item">
-                <div class="item item-width"></div> 
-            </div>
-        </div>
+        <!--MAIN-->
+        <main>
+            <div class="container-flex flex-wrap justify-content-space-evenly">
+                <div class="item item-width">
+                    <!--LIGNE POUR TITRE-->
+                    <div class="cart1_h1"><b>Your cart</b></div> <br>
+                    <h3>Not ready to checkout? Continue Shopping</h3>
+                    
+                    <!--PREMIERE LIGNE-->
+                    <img src="img/montre1.jpg" class="cart1_img" alt="image de la montre 1">
+                    <b>
+                        <div class="cart1_ligne">
+                            <h2>Athena</h2>
+                            For: Women<br>
+                            Quantity: 1<br>
+                            <div class="cart1_prix">199€</div>
+                        </div>
+                        <a class="remove">Remove</a>
+                    </b>
+                    <hr>
 
-        <!--PREMIERE LIGNE-->
-        <div class="container-flex flex-wrap justify-content-space-evenly">
-            <div class="item item-width">
-                <img src="img/montre1.jpg" class="cart1_img" alt="image de la montre 1">
-                <b>
-                    <div class="cart1_ligne">
-                        <h2>Men's winter jacket</h2>
-                        Size: L<br>
-                        Quantity: 1<br>
-                        <div class="cart1_prix">80€</div>
+                    <!--DEUXIEME LIGNE-->
+                    <img src="img/montre2.jpg" class="cart1_img" alt="image de la montre 2">
+                    <b>
+                        <div class="cart1_ligne">
+                            <h2>Apollon</h2>
+                            For: Men<br>
+                            Quantity: 1<br>
+                            <div class="cart1_prix">399€</div>
+                        </div>
+                        <a class="remove">Remove</a>
+                    </b>
+
+                    <!--ACCORDION-->
+                    <h2 class="cart1_titre2"><b>Order Information</b></h2>
+                    <button class="accordion">Section 1</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <a class="remove">Remove</a>
-                </b>
-                <hr>
-            </div> 
-            <div class="item">
-                <div class="item item-width"></div> 
-            </div>
-        </div>
-        
-        <!--DEUXIEME LIGNE-->
-        <div class="container-flex flex-wrap justify-content-space-evenly">
-            <div class="item item-width">
-                <img src="img/montre2.jpg" class="cart1_img" alt="image de la montre 2">
-                <b>
-                    <div class="cart1_ligne">
-                        <h2>Men's winter jacket</h2>
-                        Size: L<br>
-                        Quantity: 1<br>
-                        <div class="cart1_prix">80€</div>
+                    
+                    <button class="accordion">Section 2</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <a class="remove">Remove</a>
-                </b>
-            </div> 
-            <div class="item">
-                <div class="item item-width"></div> 
-            </div>
-        </div>
-    
-        <!--ACCORDION-->
-        <div class="container-flex flex-wrap justify-content-space-evenly">
-            <div class="item item-width">
-                <h2 class="cart1_titre2"><b>Order Information</b></h2>
-                <button class="accordion">Section 1</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                
-                <button class="accordion">Section 2</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                
-                <button class="accordion">Section 3</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    
+                    <button class="accordion">Section 3</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div> 
+                <div class="item item-width">
+                    <h2 class="cart1_titre2"><b>PARTIE DE MOHAMED</b></h2>
                 </div>
             </div>
-            <div class="item"><div class="item item-width"></div></div>
-        </div>
+        </main>
 
         <!--FOOTER-->
-        <div style="background-color: #000"><br><br><br></div>
+        <footer>
+            <div class="sign-up">
+                <h2 class="cart1_h2">Sign up for our newsletter</h2>
+                <p class="cart1_p">Be the first to know about our special offers, new product <br> launches, and events</p>
+                <fieldset>
+                    <form action="sign up" method="post">
+                        <input type="email" name="email" placeholder="Email Adress">
+                        <input type="submit" value="Sign Up" id="sign-up-button">
+                    </form>
+                </fieldset>
+            </div>
+            <div class="footer-navs-container">
+                <div class="footer-shop">
+                    <p class="footer-titles cart1_p">Shop</p>
+                    <nav class="footer-nav">
+                        <a href="#">
+                            <ul>Women's</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Men's</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Kids'</ul>
+                        </a>
+                        <a href="#">
+                            <ul>By Activity</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Gift Cards</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Sale</ul>
+                        </a>
+                    </nav>
+                </div>
+                <div class="footer-help">
+                    <p class="footer-titles cart1_p">Help</p>
+                    <nav class="footer-nav">
+                        <a href="#">
+                            <ul>Help Center</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Order Status</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Size Chart</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Returns & Warranty</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Contact Us</ul>
+                        </a>
+                    </nav>
+                </div>
+                <div class="footer-about">
+                    <p class="footer-titles cart1_p">About</p>
+                    <nav class="footer-nav">
+                        <a href="#">
+                            <ul>About us</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Responsability</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Technology and innovation</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Explore our stories</ul>
+                        </a>
+    
+                    </nav>
+                </div>
+            </div>
+            </div>
+        </footer>
 
 
         <script src="js/scripte.js"></script>
