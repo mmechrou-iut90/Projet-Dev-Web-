@@ -9,14 +9,16 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
-/*CARACTERISTIQUE POUR LES LIENS*/
-a {
-    position: relative;
+
+
+/*CARACTERISTIQUE POUR LES BOUTON REMOVE*/
+.remove{
     margin-left: 85%;
-}
+    position: relative;
+ }
 
 /*CARACTERISTIQUE POUR LES LIENS*/
-a::after {
+.remove::after {
     content: '';
     transform-origin: 0 0; 
     transform: scaleX(0);
@@ -32,7 +34,7 @@ a::after {
 }
 
 /*CARACTERISTIQUE POUR LES LIENS SURVOLER*/
-a:hover::after {
+.remove:hover::after {
     transform: scaleX(1);
 }
 
@@ -54,6 +56,26 @@ a:hover::after {
 /*CARACTERISTIQUE POUR LE RESPONSIVE*/
 .item-width{
     width: 35%;
+}
+
+/*CARACTERISTIQUE POUR LES BALISES UL*/
+ul{
+    margin: 0px;
+}
+
+/*CARACTERISTIQUE POUR LA BALISE MAIN*/
+main{
+    margin-bottom: 4%;
+}
+
+/*CARACTERISTIQUE POUR LA CLASSE CART1_P*/
+.cart1_p{
+    margin: 0px;
+}
+
+/*CARACTERISTIQUE POUR LA CLASSE CART1_H2*/
+.cart1_h2{
+    margin: 0px;
 }
 /*------------------------------------------------*/
 /*------------------------------------------------*/
@@ -90,11 +112,6 @@ a:hover::after {
     margin-bottom: -25px;
     height:150px; 
     width:150px;
-}
-
-/*CARACTERISTIQUE POUR LES BOUTON REMOVE*/
-.remove{
-    text-align: end;
 }
 
 /*CARACTERISTIQUE POUR L'ACCORDION*/
@@ -134,5 +151,16 @@ a:hover::after {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+
+
+
+/*------------------------------------------------*/
+/*              M E D I A   Q U E R Y             */
+/*------------------------------------------------*/
+
+
+
 /*------------------------------------------------*/
 /*------------------------------------------------*/
