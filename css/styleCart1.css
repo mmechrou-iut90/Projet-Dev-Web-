@@ -9,7 +9,11 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
-
+/*CARACTERISTIQUE POUR LA BALISE HR*/
+hr{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
 
 /*CARACTERISTIQUE POUR LES BOUTON REMOVE*/
 .remove{
@@ -112,6 +116,7 @@ main{
     margin-bottom: -25px;
     height:150px; 
     width:150px;
+    margin-right: 12px;
 }
 
 /*CARACTERISTIQUE POUR L'ACCORDION*/
@@ -160,7 +165,41 @@ main{
 /*              M E D I A   Q U E R Y             */
 /*------------------------------------------------*/
 
+/*RESEPONSIVE POUR TELEPHONE*/
+@media all and (orientation:portrait){
 
+    /*LONGEUR DES ITEMES*/
+    .item-width {
+        width: 100%;
+    }
 
+    /*PERMET DE PERMUTER LES CARDS*/
+    #flex-categorie-cards {
+        display: block;
+    }
+
+    /*CARACTERISTIQUE POUR MAIN*/
+    main {
+        margin: auto 30px;
+        margin-top: 50px;
+    }
+
+    /*CARACTERISTIQUE POUR LA CLASS CART1_H1*/
+    .cart1_h1 {
+        font-size: 34px;
+    }
+
+    /*CARACTERISTIQUE POUR LA BALISE H3*/
+    h3{
+        font-size: inherit;
+        margin-bottom: 27px;
+    }
+
+    /*CARACTERISTIQUE POUR LA BALISE HR*/
+    hr{
+        margin-top: 43px;
+        margin-bottom: 30px;
+    }
+}
 /*------------------------------------------------*/
 /*------------------------------------------------*/
