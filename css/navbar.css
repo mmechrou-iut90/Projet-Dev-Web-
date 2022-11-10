@@ -18,8 +18,6 @@ header{
     display: flex;
     align-items: center;
     gap: 3vw;
-    list-style-type: none;
-
 }
 
 .navbar-link{
@@ -127,10 +125,11 @@ a{
         display: flex;
         background-color: #0D0D0D ;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         justify-content: center;
         align-items: center;
         margin-left: -100%;
+        transition: all 0.5s ;
     }
 
     .navbar-container .Hamburger{
@@ -138,6 +137,7 @@ a{
         width: 50px;
         height: 50px;
         margin-right: 3%;
+
     }
 
     .navbar-container{
@@ -150,15 +150,18 @@ a{
 
     .navbar-container .navbar-link ul li{
         margin: 40px 0;
-        font-size: 1.3em;
+        font-size: 1.8em;
         list-style-type: none;
-    }
-
-    .search{
-        display: none;
     }
 
     .Hamburger{
         z-index: 2;
     }
+
+    .search{
+        margin-right: 75px;
+        margin-top: 50px;
+    }
+
+
 }
