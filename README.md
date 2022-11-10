@@ -9,3 +9,5 @@ Etudiant 5 : [EL HAJJAJI Mohamed-Amine](https://github.com/MohakeMKS)<br>
 Etudiant 6 : [TABOADA Nôe](https://github.com/nt579176)<br>
 <br>
 Produit mis en vente : montre
+<br>
+La partie de gauche de Cart1 a été fait par Elias KHALLOUK
