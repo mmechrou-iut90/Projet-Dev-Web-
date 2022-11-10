@@ -55,6 +55,9 @@
   border: none;
   width: 150px;
   height: 50px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 #achat{
@@ -64,6 +67,9 @@
   border: none  ;
   width: 150px;
   height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+
 }
 
 #achat:hover{
