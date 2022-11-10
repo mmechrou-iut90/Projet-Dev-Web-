@@ -157,6 +157,11 @@ a{
     .Hamburger{
         z-index: 2;
     }
+    
+     .search{
+        display: none;
+    }
+
 
 
 }
