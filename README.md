@@ -10,4 +10,12 @@ Etudiant 6 : [TABOADA Nôe](https://github.com/nt579176)<br>
 <br>
 Produit mis en vente : montre
 <br>
-La partie de gauche de Cart1 a été fait par Elias KHALLOUK
+Noé Taboad s'est chargé de la page d'accueil.
+<br>
+La page montrant les différents produits a été faite par Meydi Bresson et M'hammed Mechroubi, de même pour le header et le footer.
+<br>
+Enfin, Simon a fait les pages qui détaillent chaque article.
+<br>
+La partie de gauche de la page panier a été fait par Elias KHALLOUK.
+
+
