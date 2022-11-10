@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap');
+
+.groupe-logo{
+	display: flex;
+	flex-direction : row;
+	justify-content: center;
+    flex-wrap: wrap;
+	}
+.div-big-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+.big-image{
+    width: 80%;
+}
+.lien{
+    color: black;
+    border : solid black 1px;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
+
+}
+.le-texte{
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.police-sans
+{
+    font-family: 'Public Sans';
+    text-align: center;
+    
+}
