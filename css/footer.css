@@ -91,6 +91,7 @@ input[type=email] {
     .footer-navs-container {
         display: flex;
         gap: 10px;
+        justify-content: center;
     }
 
     .footer-titles {
