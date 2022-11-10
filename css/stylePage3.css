@@ -21,6 +21,11 @@
   height: 500px;
 }
 
+.flex-card {
+  display: flex;
+  align-items: center;
+}
+
 .block-right{
   margin: 0% 2% 5%;
 }
@@ -52,7 +57,7 @@
   background-color: black;
   color: white;
   margin: 1% 1% 1% 0;
-  border: none;
+  border: solid ;
   width: 150px;
   height: 50px;
   text-decoration: none;
@@ -64,7 +69,7 @@
   background-color: blue;
   color: white;
   margin: 1%;
-  border: none  ;
+  border: solid  ;
   width: 150px;
   height: 50px;
   padding: 10px;
@@ -73,21 +78,29 @@
 }
 
 #achat:hover{
-  box-shadow: 10px 5px 5px skyblue;
-  cursor: pointer;
+background-color: white;
+border: solid ;
+color: blue;
+cursor: pointer;
 }
 
 #panier:hover{
-  box-shadow: 10px 5px 5px darkgrey;
+  background-color: white;
+  border: solid ;
+  color: black;
+  cursor: pointer;
+}
+
+#moins{
   cursor: pointer;
 }
 
 .material-symbols-outlined:hover{
-  border-style: groove;
-  border-radius: 5px;
-  border-color: black;
-  background-color: darkgrey;
+  margin: none;
+ border-radius: 50px;
+  color: white;
   cursor: pointer;
+  background-color: black;
 }
 
 
