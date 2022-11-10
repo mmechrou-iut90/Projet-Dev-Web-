@@ -4,13 +4,13 @@ footer {
     margin: auto 145px;
     display: flex;
     justify-content: space-around;
-    gap: 80px;
+    gap: 3vw;
 }
 
 .footer-navs-container {
     display: flex;
     justify-content: space-around;
-    gap: 80px;
+    gap: 3vw;
 }
 
 fieldset {
