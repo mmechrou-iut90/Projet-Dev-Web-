@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/styleShop.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <title>Shop Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar-container">
+
+            <div class="navbar-link">
+                <a href="#" id="PageEnGras">Ecommerce</a>
+                <a href="#" >Shop</a>
+                <a href="#"">Stories</a>
+                <a href="#" >About</a>
+                <div class="search">
+                    <img src="https://www.a-c-c.fr/wp-content/uploads/2014/09/loupe-blanc-min.png" alt="logo loupe" class="imageLoupe">
+                    <input type="text" id="recherche" placeholder="Search" name="recherche" >
+                </div>
+            </div>
+
+            <div class="navbar-right">
+                <div class="pannier">
+                    <img src="https://www.pngplay.com/wp-content/uploads/3/Panier-PNG-De-Fichier-Telecharger.png" class="imageShop" alt="Image du Shop">
+                    <p>3</p>
+                </div>
+                <a href="#">Login</a>
+            </div>
+
+        </div>
+    </header>
+    
+    <main>
+        <div id="container">
+
+            <!-- Description page en dessous header -->
+            <div id="shop-desc">
+                <h1>Shop</h1>
+                <p>Revamp your style with the latest designer trends in jackets or achieve a perfectly
+                    curated wardrobe
+                    thanks to our line-up of timeless pieces.
+                </p>
+            </div>
+
+            <!-- Contenue principale de la page -->
+            <div id="main">
+                <div id="top-main">
+                    <div id="filter">
+                        <p>Filters</p>
+                        <div id="clear-filter" class="grey"> Clear filter </div>
+                    </div>
+                </div>
+                <p class="titles-filter categorie">Categories</p>
+                <div id="flex-categorie-cards">
+                    <div>
+                        <div id="filter-checkbox">
+                            <div class="checkbox-item">
+                                <input type="checkbox" name="men" id="" class="square-checkbox ">
+                                <label for="man">Men</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" name="woman" id="" class="square-checkbox">
+                                <label for="woman">Women</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" name="mixed" id="" class="square-checkbox">
+                                <label for="mixed">Mixed</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" name="offers" id="" class="square-checkbox">
+                                <label for="offers">Offers</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" name="new" id="" class="square-checkbox">
+                                <label for="new">New</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" name="waterproof" id="" class="square-checkbox">
+                                <label for="waterproof">Waterproof</label>
+                            </div>
+                        </div>
+                        <div id="colors">
+                            <p class="titles-filter">Color</p>
+                            <div id="container-color">
+                                <div id="responsive-flex-color">
+                                    <div class="row">
+                                        <div class="color color1"></div>
+                                        <div class="color color2"></div>
+                                        <div class="color color3"></div>
+                                        <div class="color color4"></div>
+                                    </div>
+                                    <div class="row row2">
+                                        <div class="color color5"></div>
+                                        <div class="color color6"></div>
+                                        <div class="color color7"></div>
+                                        <div class="color color8"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="cards">
+                        <div id="products" class="card7">
+                            <div id="select-product">
+                                <label for="select-product-items" class="grey">Sort by</label>
+                                <select name="select-product-items">
+                                    <option value="popular">Popular</option>
+                                    <option value="price-increasing">Price ↑</option>
+                                    <option value="price-decreasing">Price ↓ </option>
+                                </select>
+                            </div>
+                            <div id="showing-product-text">Showing 545 products</div>
+                        </div>
+                        <div class="card card1">
+                            <img src="./img/montre1.jpg" alt="" class="img">
+                            <div class="card-desc">
+                                <h3>Poseidon</h3>
+                                <p>Men</p>
+                            </div>
+                            <p>499€</p>
+                        </div>
+                        <div class="card card2">
+                            <img src="./img/montre4.jpg" alt="" class="img">
+                            <div class="card-desc">
+                                <h3>Athena</h3>
+                                <p>Women</p>
+                            </div>
+                            <p>199€</p>
+                        </div>
+                        <div class="card card3">
+                            <img src="./img/montre3.jpg" alt="" class="img">
+                            <div class="card-desc">
+                                <h3>Arès</h3>
+                                <p>Women</p>
+                            </div>
+                            <p>399€</p>
+                        </div>
+                        <div class="card card4">
+                            <img src="./img/montre2.jpg" alt="" class="img">
+                            <div class="card-desc">
+                                <h3>Apollon</h3>
+                                <p>Men</p>
+                            </div>
+                            <p>399€</p>
+                        </div>
+                        <div class="card card5">
+                            <img src="./img/montre5.webp" alt="" class="img">
+                            <div class="card-desc">
+                                <h3>Hermès</h3>
+                                <p>Men</p>
+                            </div>
+                            <p>299€</p>
+                        </div>
+                        <div class="card card6">
+                            <img src="./img/montre6.jpeg" alt="" class="img">
+                            <div class="card-desc">
+                                <h3>Hades</h3>
+                                <p>Men</p>
+                            </div>
+                            <p>345€</p>
+                        </div>
+                        <div class="load-more">
+                            <p>Load more product</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+    </main>
+
+    <footer>
+        <div class="sign-up">
+            <h2>Sign up for our newsletter</h2>
+            <p>Be the first to know about our special offers, new product <br> launches, and events</p>
+            <fieldset>
+                <form action="sign up" method="post">
+                    <input type="email" name="email" placeholder="Email Adress">
+                    <input type="submit" value="Sign Up" id="sign-up-button">
+                </form>
+            </fieldset>
+        </div>
+        <div class="footer-navs-container">
+            <div class="footer-shop">
+                <p class="footer-titles">Shop</p>
+                <nav class="footer-nav">
+                    <a href="#">
+                        <ul>Women's</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Men's</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Kids'</ul>
+                    </a>
+                    <a href="#">
+                        <ul>By Activity</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Gift Cards</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Sale</ul>
+                    </a>
+                </nav>
+            </div>
+            <div class="footer-help">
+                <p class="footer-titles">Help</p>
+                <nav class="footer-nav">
+                    <a href="#">
+                        <ul>Help Center</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Order Status</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Size Chart</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Returns & Warranty</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Contact Us</ul>
+                    </a>
+                </nav>
+            </div>
+            <div class="footer-about">
+                <p class="footer-titles">About</p>
+                <nav class="footer-nav">
+                    <a href="#">
+                        <ul>About us</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Responsability</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Technology and innovation</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Explore our stories</ul>
+                    </a>
+
+                </nav>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
