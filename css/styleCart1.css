@@ -1,12 +1,12 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap');
 /*------------------------------------------------*/
 /*               S I T E  E N T I E R             */
 /*------------------------------------------------*/
 
 /*CARACTERISTIQUE POUR TOUT LE SITE*/
 body{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Public Sans';
 }
 
 /*CARACTERISTIQUE POUR LA BALISE HR*/
@@ -81,6 +81,11 @@ main{
 .cart1_h2{
     margin: 0px;
 }
+
+.gender{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 
@@ -114,8 +119,8 @@ main{
 .cart1_img{
     border-radius: 10px;
     margin-bottom: -25px;
-    height:150px; 
-    width:150px;
+    height: 163px;
+    width: 163px;
     margin-right: 12px;
 }
 
@@ -156,6 +161,10 @@ main{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+#hr{
+    display: none;
+}
 /*------------------------------------------------*/
 /*------------------------------------------------*/
 
@@ -189,17 +198,19 @@ main{
         font-size: 34px;
     }
 
-    /*CARACTERISTIQUE POUR LA BALISE H3*/
-    h3{
-        font-size: inherit;
-        margin-bottom: 27px;
-    }
+
 
     /*CARACTERISTIQUE POUR LA BALISE HR*/
     hr{
         margin-top: 43px;
         margin-bottom: 30px;
     }
+
+    #hr{
+        display: block;
+    }
+
 }
+
 /*------------------------------------------------*/
 /*------------------------------------------------*/
