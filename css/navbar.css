@@ -1,0 +1,107 @@
+@import url('https://rsms.me/inter/inter.css');
+
+header{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #0D0D0D;
+    border-bottom: 1px solid white;
+}
+
+.navbar-container{
+    display: flex;
+    gap: 543px;
+}
+
+.navbar-link{
+    display: flex;
+    margin-left: 145px;
+    gap: 32px;
+
+}
+
+a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: -0.6px;
+    font-family: Inter;
+
+}
+
+#Ecommerce{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.imageLoupe{
+    font-size: 17px;
+    width: 15.85px;
+    height: 16px;
+}
+
+#recherche{
+    position: absolute;
+    background-color: #0D0D0D;
+    color: grey;
+    border: none;
+    font-size: 17px;
+    line-height: 21px;
+    padding-left: 12.15px;
+}
+
+.navbar-right{
+    display: flex;
+    gap:22px;
+    
+}
+
+.pannier{
+    display: flex;
+    color: white;
+    line-height: 21px;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 7.72px;
+    line-height: 21px;
+    bottom: 0.06%;
+}
+
+.imageShop{
+    width: 15.85px;
+    height: 16px;
+
+}
+
+@media (max-width: 700px) {
+    .navbar-container::before,
+.navbar-container::after {
+  content:'';
+  width:30px;
+  height:2px;
+  background:white;
+  display:inline-block;
+  position:absolute;
+  transform-origin: center;
+  transition: all 0.3s ease;
+}
+.navbar-container::before {
+  top:-7px;
+}
+.navbar-container::after {
+  top:7px;
+}
+.navbar-container.open {
+    background:transparent; /* la barre du milieu disparait */
+  }
+  /* celles du haut et du bas s'inclinent pour former une croix */
+  .navbar-container.open::before {
+    transform: rotate(45deg); 
+    top:0;
+  }
+  .navbar-container.open::after {
+    transform: rotate(-45deg);
+    top:0;
+  }
+
+}
