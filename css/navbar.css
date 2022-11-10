@@ -18,6 +18,8 @@ header{
     display: flex;
     align-items: center;
     gap: 3vw;
+    list-style-type: none;
+
 }
 
 .navbar-link{
