@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap');
 /*------------------------------------------------*/
 /*               S I T E  E N T I E R             */
@@ -19,6 +18,7 @@ hr{
 .remove{
     margin-left: 85%;
     position: relative;
+    cursor: pointer;
  }
 
 /*CARACTERISTIQUE POUR LES LIENS*/
@@ -31,7 +31,7 @@ hr{
     left: 0;
     right: 0;
     height: .5em; 
-    background: #78ab4e;
+    background: red;
     z-index: -1;
     opacity: 0.8;
     transition: transform .3s;
@@ -97,7 +97,7 @@ main{
 
 /*CARACTERISTIQUE POUR TITRE H1*/
 .cart1_h1{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 /*MET SUR LA MEME LIGNE*/
@@ -198,8 +198,6 @@ main{
         font-size: 34px;
     }
 
-
-
     /*CARACTERISTIQUE POUR LA BALISE HR*/
     hr{
         margin-top: 43px;
@@ -210,7 +208,104 @@ main{
         display: block;
     }
 
+    .marge{
+        margin-top: 355px;
+    }
+
 }
 
-/*------------------------------------------------*/
-/*------------------------------------------------*/
+
+/*COUPON REDUCTION*/
+
+
+
+
+#recherche {
+  height: 40px;
+  background:white;
+  border-radius:0em;
+  border: solid 1px black;
+  }
+
+
+    
+  #recherche input {
+  outline:0;
+  border:0;
+  margin:0;
+  height:56px;
+  display:block;
+  }
+    
+  #recherche input[type=text] {
+  font-size: 16px;
+  background:none;
+  width:180px;
+  padding:0 22px;
+  color:#666;
+  height: 50px;
+  font-family: 'Public Sans';
+  border: none;
+  }
+
+
+  /* LIGNE DU PRIX */
+
+  .prix {
+    display: flex;
+  }
+
+  .price{
+    margin-left: auto;
+  }
+
+  .shipping{
+    display: flex;
+  }
+
+  .Calculated{
+    margin-left: auto;
+  }
+
+  .total {
+    display: flex;
+  }
+
+  .tot2{
+    margin-left: auto;
+  }
+
+  .cart1_bouton {
+    display: inline-block;
+    background-color: #000;
+    border: 0px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 18px;
+    width: 521px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+    height: 0px;
+    padding-bottom: 35px;
+    padding-top: 13px;
+    width: 100%;
+    font-weight: 900;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
