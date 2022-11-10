@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Your Basket</title>
+        <title>Your Cart</title>
         <link rel="icon" href="img/icon_montre.png" type="image/gif" sizes="16x16">
         <!--STYLE CSS-->
         <link href="css/styleCart1.css" rel="stylesheet" >
@@ -21,11 +21,11 @@
             <div id="flex-categorie-cards" class="container-flex flex-wrap justify-content-space-evenly">
                 <div class="item-width" >
                     <!--LIGNE POUR TITRE-->
-                    <div class="cart1_h1"><b>Your basket</b></div>
-                    <p>Not ready to checkout? Continue Shopping</p>
+                    <div class="cart1_h1"><b>Your Cart</b></div>
+                    <p>Not ready to checkout? <a href="shopPage.html">Continue Shopping</a></p>
                     
                     <!--PREMIERE LIGNE-->
-                    <img src="img/montre4.jpg" class="cart1_img" alt="image de la montre 1">
+                    <a href="ProductPage04.html"><img src="img/montre4.jpg" class="cart1_img" alt="image de la montre 1"></a>
                     
                         <div class="cart1_ligne">
                             <h2><b>Athena</b></h2>
@@ -38,7 +38,7 @@
                     <hr>
 
                     <!--DEUXIEME LIGNE-->
-                    <img src="img/montre2.jpg" class="cart1_img" alt="image de la montre 2">
+                    <a href="ProductPage02.html"><img src="img/montre2.jpg" class="cart1_img" alt="image de la montre 2"></a>
                     
                         <div class="cart1_ligne">
                             <h2><b>Apollon</b></h2>
@@ -52,12 +52,39 @@
 
                     
                 </div> 
-                <div class="item-width">
-                    <h2 class="cart1_titre2"><b>PARTIE DE MOHAMED</b></h2>
-                </div>
+                <div class="item-width" style="margin-top: 40px;" >
+                    <h2><b>Order Summary</b></h2>
+                    <br>
+                    <form id="recherche" method="post">
+                  
+                        <input name="saisie" type="text" placeholder="Enter coupon code here" required/>
+                        <br>
+                        <div class="prix">
+                            <div class="Subtotal">Subtotal</div>
+                            <div class="price">200€</div> 
+                        </div>
+                        <br>
+                        <div class="shipping">
+                            <div class="Ship">Shipping</div>
+                            <div class="Calculated">Calculated at the next step</div>
+                        </div>
+                        <hr>
+                        <div class="total">
+                            <div class="tot1">
+                                <p>Total</p>
+                            </div>
+                            <div class="tot2">
+                                <p>200€</p>
+                            </div>
+                        </div>
+                        <br>
+                        <buton class="cart1_bouton">Continue to checkout</buton>
+                    </form>
+                    </b>
+                  </div>
             </div>
-            <div id="flex-categorie-cards" class="container-flex flex-wrap justify-content-space-evenly">
-                <div class="item-width">
+            <div id="flex-categorie-cards" class="container-flex flex-wrap justify-content-space-evenly " >
+                <div class="item-width marge">
                     <!--ACCORDION-->
                     <div id="accordion">
                         <h2 class="cart1_titre2"><b>Order Information</b></h2>
@@ -98,24 +125,24 @@
                 <div class="footer-shop">
                     <p class="footer-titles cart1_p">Shop</p>
                     <nav class="footer-nav">
-                      <a href="shopPage.html">
-                        <ul>Women's</ul>
-                      </a>
-                      <a href="shopPage.html">
-                        <ul>Men's</ul>
-                      </a>
-                      <a href="shopPage.html">
-                        <ul>Kids'</ul>
-                      </a>
-                      <a href="shopPage.html">
-                        <ul>Offers</ul>
-                      </a>
-                      <a href="#">
-                        <ul>Gift Cards</ul>
-                      </a>
-                      <a href="shopPage.html">
-                        <ul>New</ul>
-                      </a>
+                        <a href="#">
+                            <ul>Women's</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Men's</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Kids'</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Offers</ul>
+                        </a>
+                        <a href="#">
+                            <ul>Gift Cards</ul>
+                        </a>
+                        <a href="#">
+                            <ul>New</ul>
+                        </a>
                     </nav>
                 </div>
                 <div class="footer-help">
