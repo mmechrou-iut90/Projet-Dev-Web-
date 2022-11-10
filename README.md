@@ -17,7 +17,7 @@ La page montrant les différents produits a été faite par Meydi Bresson et M'h
 Enfin, Simon a fait les pages qui détaillent chaque article.
 <br>
 La partie de gauche de la page panier a été fait par Elias KHALLOUK.
-<br>
+<br><br>
 Précision : Meydi a retiré tous les margin et padding de base du navigateur pour sa page(avec l'attribut * ) mais pas les autres membres. <br>
 Comme il a fait le header sur sa page, on a eu des soucis avec les autres pages pour l'adapter correctement. <br> 
 C'est pourquoi le header est un peu différent de sa page aux autres.
