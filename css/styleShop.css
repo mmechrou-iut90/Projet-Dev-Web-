@@ -350,11 +350,7 @@ img {
     #filter-checkbox {
         display: flex;
     }
-
-    #showing-product-text {
-        margin-top: 0px;
-    }
-
+    
     .categorie {
         margin-top: 50px;
     }
