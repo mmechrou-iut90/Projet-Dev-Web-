@@ -13,53 +13,33 @@
 </head>
 
 <body>
-    <header>
+    <header id="header1">
         <div class="navbar-container">
 
             <div class="navbar-link">
-                <div class="menutqt">
                     <div class="linkLeft">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#" id="PageEnGras">Shop</a></li>
-                            <li><a href="#">Cart</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="HomePage.html" class="lienDiffPage">Home</a></li>
+                            <li><a href="shopPage.html" id="PageEnGras" class="lienDiffPage">Shop</a></li>
+                            <li><a href="cart_1.html" class="lienDiffPage">Cart</a></li>
+                            <li><a href="#" class="lienDiffPage">About</a></li>
                         </ul>
                     </div>
                 <div class="search">
                     <img src="https://www.a-c-c.fr/wp-content/uploads/2014/09/loupe-blanc-min.png" alt="logo loupe" class="imageLoupe">
                     <input type="text" id="recherche" placeholder="Search" name="recherche" >
                 </div>
-                </div>
             </div>
                 <div class="navbar-right">
                     <div class="pannier">
-                         <a href=""><img src="https://www.pngplay.com/wp-content/uploads/3/Panier-PNG-De-Fichier-Telecharger.png" class="imageShop" alt="Image du Shop"></a>
+                         <a href="cart_1.html"><img src="https://www.pngplay.com/wp-content/uploads/3/Panier-PNG-De-Fichier-Telecharger.png" class="imageShop" alt="Image du Shop"></a>
                          <p>3</p>
                      </div>
-                     <a href="#">Login</a>
+                     <a href="#" class="lienDiffPage">Login</a>
                 </div>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="Boutton hamburger" class="Hamburger"> 
         </div>
     </header>
-
-
-    <script>
-        const menuHamburger = document.querySelector(".Hamburger")
-        const navLinks = document.querySelector(".navbar-link")
- 
-        menuHamburger.addEventListener('click',()=>{
-        navLinks.classList.toggle('mobile-menu')
-        })
-    </script>
-        const menuHamburger = document.querySelector(".Hamburger")
-        const navLinks = document.querySelector(".navbar-link")
- 
-        menuHamburger.addEventListener('click',()=>{
-        navLinks.classList.toggle('mobile-menu')
-        })
-    </script>
-
     <main>
         <div id="container">
 
@@ -121,16 +101,16 @@
                             </div>
                         </div>
                         <div id="colors">
-                            <p class="titles-filter">Color</p>
+                            <p class="titles-filter color-title">Color</p>
                             <div id="container-color">
                                 <div id="responsive-flex-color">
-                                    <div class="row">
+                                    <div class="row-colors">
                                         <div class="color color1"></div>
                                         <div class="color color2"></div>
                                         <div class="color color3"></div>
                                         <div class="color color4"></div>
                                     </div>
-                                    <div class="row row2">
+                                    <div class="row-colors row2">
                                         <div class="color color5"></div>
                                         <div class="color color6"></div>
                                         <div class="color color7"></div>
@@ -189,7 +169,7 @@
                             </div>
                             <p>345€</p>
                         </div>
-                        <div class="load-more">
+                        <div class="load-more card7">
                             <p>Load more product</p>
                         </div>
                     </div>
@@ -275,6 +255,14 @@
         </div>
         </div>
     </footer>
+        <script>
+        const menuHamburger = document.querySelector(".Hamburger")
+        const navLinks = document.querySelector(".navbar-link")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
 
 </html>

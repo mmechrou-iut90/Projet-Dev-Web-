@@ -1,12 +1,17 @@
-var nombre = 0;
-var countEl = document.getElementById("nombre");
+var compteur = 1;
+document.getElementById("compting").innerText = compteur;
+console.log(compteur);
+
 function plus(){
-	nombre++;
-	countEl.value = nombre;
+	compteur = compteur +1;
+	document.getElementById("compting").innerText = compteur;
 }
 function minus(){
-	if (nombre > 0) {
-		nombre--;
-		countEl.value = nombre;
+	if ( compteur < 1){
+		compteur = 0;
 	}
+	else{
+		compteur = compteur - 1;
+	}
+	document.getElementById("compting").innerText = compteur;
 }

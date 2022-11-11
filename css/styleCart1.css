@@ -60,6 +60,7 @@ hr{
 /*CARACTERISTIQUE POUR LE RESPONSIVE*/
 .item-width{
     width: 35%;
+    margin-top: 51px;
 }
 
 /*CARACTERISTIQUE POUR LES BALISES UL*/
@@ -212,6 +213,10 @@ main{
         margin-top: 355px;
     }
 
+    .remove{
+        z-index: -2;
+    }
+
 }
 
 
@@ -220,16 +225,16 @@ main{
 
 
 
-#recherche {
+#recherches {
   height: 40px;
   background:white;
   border-radius:0em;
   border: solid 1px black;
   }
-
+ 
 
     
-  #recherche input {
+  #recherches input {
   outline:0;
   border:0;
   margin:0;
@@ -237,7 +242,7 @@ main{
   display:block;
   }
     
-  #recherche input[type=text] {
+  #recherches input[type=text] {
   font-size: 16px;
   background:none;
   width:180px;
@@ -295,17 +300,3 @@ main{
     width: 100%;
     font-weight: 900;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

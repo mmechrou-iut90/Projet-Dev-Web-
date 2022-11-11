@@ -4,45 +4,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Athena</title>
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" type="text/css" href="css/stylePage3.css">
-        <link rel="stylesheet" type="text/css" href="css/footer.css">
-
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-        <div class="box">
-          <div class="block-left" >
-            <div class="card">
-                    <img src="./img/montre2.jpg" alt="image de montre" id="img">
+    <header id="header2">
+        <div class="navbar-container">
 
+            <div class="navbar-link">
+                    <div class="linkLeft">
+                        <ul>
+                            <li><a href="HomePage.html" class="lienDiffPage">Home</a></li>
+                            <li><a href="shopPage.html"  id="PageEnGras" class="lienDiffPage">Shop</a></li>
+                            <li><a href="cart_1.html" class="lienDiffPage">Cart</a></li>
+                            <li><a href="#" class="lienDiffPage">About</a></li>
+                        </ul>
+                    </div>
+                <div class="search">
+                    <img src="https://www.a-c-c.fr/wp-content/uploads/2014/09/loupe-blanc-min.png" alt="logo loupe" class="imageLoupe">
+                    <input type="text" id="recherche" placeholder="Search" name="recherche" >
+                </div>
             </div>
-          </div>
-          <div class="block-right">
+                <div class="navbar-right">
+                    <div class="pannier">
+                         <a href="cart_1.html"><img src="https://www.pngplay.com/wp-content/uploads/3/Panier-PNG-De-Fichier-Telecharger.png" class="imageShop" alt="Image du Shop"></a>
+                         <p>3</p>
+                     </div>
+                     <a href="#" class="lienDiffPage">Login</a>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="Boutton hamburger" class="Hamburger"> 
+        </div>
+    </header>
+
+    <div class="box">
+        <div class="block-left" >
+            <div class="card">
+                <div class="flex-card">
+                    <span class="material-symbols-outlined">arrow_back_ios</span>
+                    <div class="img-page"><img src="./img/montre3.jpg" alt="image de montre" id="img"></div>
+                    <div class="arrow"><span class="material-symbols-outlined arrow">arrow_forward_ios</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="block-right">
             <h1 id="titre">Athena</h1>
             <p id="prix">199€</p>
-            <p id="texte">Elle dispose d’une lunette tournante unidirectionnelle et d’un bracelet Oyster à larges mailles. La toute dernière génération de Submariner et de Submariner Date reste fidèle au modèle original lancé en 1953. La Submariner marque un tournant historique dans le monde de l’horlogerie et s’impose rapidement parmi les montres de plongée.</p>
-                        <div class="box-boutton">
-                            <input id="nombre" value="1"/>
-                            <select name="taille" id="taille">
-                                    <option value="question">taille ?</option>
-                                    <option value="17cm">17cm</option>
-                                    <option value="18cm">18cm</option>
-                                    <option value="19cm">19cm</option>
-                                    <option value="20cm">20cm</option>
-                            </select>
-                        </div>
-
-            <p class="annotation">taille du bracelet de base : 20cm</p>
+            <p id="texte">Its dial features 24 diamonds set on 18 ct gold bezels. The reflections of light on the lugs and the sides of the middle highlight the refined shapes of the 31 mm Oyster case, surmounted by a bezel set with diamonds. With its timeless aesthetics, functionality and rich history, the Ares watch is a horological icon and one of the brand's most recognizable watches.</p>
             <div class="box-boutton">
-                <button id="panier">Add to Cart</button>
+                <div id="nombre">
+                    <button id="moins" onclick="minus()"> - </button>
+                    <div id="compting">1</div>
+                    <button id="plus" onclick="plus()"> + </button>
+                </div>
+                <select name="taille" id="taille">
+                    <option value="question">taille ?</option>
+                    <option value="17cm">17cm</option>
+                    <option value="18cm">18cm</option>
+                    <option value="19cm">19cm</option>
+                    <option value="20cm">20cm</option>
+                </select>
+            </div>
+            <p class="annotation">base bracelet size : 20cm</p>
+            <div class="box-boutton-bas">
+                <button id="panier" >Add to Cart</button>
                 <button id="achat">Buy Now</button>
             </div>
-          </div>
         </div>
-  <span class="material-symbols-outlined">arrow_forward_ios</span>
-  <span class="material-symbols-outlined">arrow_back_ios</span>
-    <span class="material-symbols-outlined">add</span>
-    <span class="material-symbols-outlined">remove</span>
+    </div>
 
     <footer>
         <div class="sign-up">
@@ -120,6 +150,15 @@
         </div>
         </div>
     </footer>
+
+    <script>
+        const menuHamburger = document.querySelector(".Hamburger")
+        const navLinks = document.querySelector(".navbar-link")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script> 
 
     
 </body>

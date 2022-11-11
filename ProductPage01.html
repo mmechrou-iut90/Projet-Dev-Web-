@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Poseidon</title>
-	<link rel="stylesheet" type="text/css" href="css/stylePage3.css">
-	<link rel="stylesheet" type="text/css" href="css/footer.css">
-    <script src="chemin/vers/le/scriptProduct.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Poseidon</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/stylePage3.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-        <div class="box">
-          <div class="block-left" >
-          	<div class="card">
-          		<div class="flex-card">
+    <header id="header2">
+        <div class="navbar-container">
+
+            <div class="navbar-link">
+                    <div class="linkLeft">
+                        <ul>
+                            <li><a href="HomePage.html" class="lienDiffPage">Home</a></li>
+                            <li><a href="shopPage.html"  id="PageEnGras" class="lienDiffPage">Shop</a></li>
+                            <li><a href="cart_1.html" class="lienDiffPage">Cart</a></li>
+                            <li><a href="#" class="lienDiffPage">About</a></li>
+                        </ul>
+                    </div>
+                <div class="search">
+                    <img src="https://www.a-c-c.fr/wp-content/uploads/2014/09/loupe-blanc-min.png" alt="logo loupe" class="imageLoupe">
+                    <input type="text" id="recherche" placeholder="Search" name="recherche" >
+                </div>
+            </div>
+                <div class="navbar-right">
+                    <div class="pannier">
+                         <a href="cart_1.html"><img src="https://www.pngplay.com/wp-content/uploads/3/Panier-PNG-De-Fichier-Telecharger.png" class="imageShop" alt="Image du Shop"></a>
+                         <p>3</p>
+                     </div>
+                     <a href="#" class="lienDiffPage">Login</a>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="Boutton hamburger" class="Hamburger"> 
+        </div>
+    </header>
+
+    <div class="box">
+        <div class="block-left" >
+            <div class="card">
+                <div class="flex-card">
                     <span class="material-symbols-outlined">arrow_back_ios</span>
                     <div class="img-page"><img src="./img/montre1.jpg" alt="image de montre" id="img"></div>
                     <div class="arrow"><span class="material-symbols-outlined arrow">arrow_forward_ios</span></div>
                 </div>
-          	</div>
-          </div>
-          <div class="block-right">
-          	<h1 id="titre">Poseidon</h1>
-          	<p id="prix">499€</p>
-          	<p id="texte">Elle dispose d’une lunette tournante unidirectionnelle et d’un bracelet Oyster à larges mailles. La toute dernière génération de Submariner et de Submariner Date reste fidèle au modèle original lancé en 1953. La Submariner marque un tournant historique dans le monde de l’horlogerie et s’impose rapidement parmi les montres de plongée.</p>
-						<div class="box-boutton">
-							<input id="text" value="0"/>
-							<select name="taille" id="taille">
-									<option value="question">taille ?</option>
-									<option value="17cm">17cm</option>
-									<option value="18cm">18cm</option>
-									<option value="19cm">19cm</option>
-									<option value="20cm">20cm</option>
-							</select>
-						</div>
-
-          	<p class="annotation">taille du bracelet de base : 20cm</p>
-          	<div class="box-boutton">
-          		<a href="cart_1.html" id="panier" target="blank_">Add to Cart</a>
-          		<a id="achat">Buy Now</a>
-          	</div>
-          </div>
+            </div>
         </div>
-	
+        <div class="block-right">
+            <h1 id="titre">Poseidon</h1>
+            <p id="prix">499€</p>
+            <p id="texte">It has a unidirectional rotating bezel and a large mesh Oyster bracelet. The latest generation of Submariner and Submariner Daazte remains faithful to the original model launched in 1953. The Submariner marks a historic turning point in the world of watchmaking and quickly establishes itself among diving watches.</p>
+            <div class="box-boutton">
+                <div id="nombre">
+                    <button id="moins" onclick="minus()"> - </button>
+                    <div id="compting">1</div>
+                    <button id="plus" onclick="plus()"> + </button>
+                </div>
+                <select name="taille" id="taille">
+                    <option value="question">taille ?</option>
+                    <option value="17cm">17cm</option>
+                    <option value="18cm">18cm</option>
+                    <option value="19cm">19cm</option>
+                    <option value="20cm">20cm</option>
+                </select>
+            </div>  
+            <p class="annotation">base bracelet size : 20cm</p>
+            <div class="box-boutton">
+                <a href="cart_1.html" id="panier" target="blank_">Add_to_Cart</a>
+                <a id="achat">Buy_Now</a>
+            </div>
+        </div>
+    </div>
+    
     <footer>
         <div class="sign-up">
             <h2>Sign up for our newsletter</h2>
@@ -59,44 +90,44 @@
             <div class="footer-shop">
                 <p class="footer-titles">Shop</p>
                 <nav class="footer-nav">
-                    <a href="shopPage.html">
+                    <a href="#">
                         <ul>Women's</ul>
                     </a>
-                    <a href="shopPage.html">
+                    <a href="#">
                         <ul>Men's</ul>
                     </a>
-                    <a href="shopPage.html">
+                    <a href="#">
                         <ul>Kids'</ul>
                     </a>
-                    <a href="shopPage.html">
-                        <ul>Offers</ul>
+                    <a href="#">
+                        <ul>By Activity</ul>
                     </a>
                     <a href="#">
                         <ul>Gift Cards</ul>
                     </a>
-                    <a href="shopPage.html">
-                        <ul>New</ul>
+                    <a href="#">
+                        <ul>Sale</ul>
                     </a>
                 </nav>
             </div>
             <div class="footer-help">
                 <p class="footer-titles">Help</p>
                 <nav class="footer-nav">
-                        <a href="#">
-                            <ul>Help Center</ul>
-                        </a>
-                        <a href="#">
-                            <ul>Order Status</ul>
-                        </a>
-                        <a href="#">
-                            <ul>Size Chart</ul>
-                        </a>
-                        <a href="#">
-                            <ul>Returns & Warranty</ul>
-                        </a>
-                        <a href="#">
-                            <ul>Contact Us</ul>
-                        </a>
+                    <a href="#">
+                        <ul>Help Center</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Order Status</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Size Chart</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Returns & Warranty</ul>
+                    </a>
+                    <a href="#">
+                        <ul>Contact Us</ul>
+                    </a>
                 </nav>
             </div>
             <div class="footer-about">
@@ -121,6 +152,15 @@
         </div>
     </footer>
 
-	
+    <script src="js/scriptProduct.js"></script>
+    <script>
+        const menuHamburger = document.querySelector(".Hamburger")
+        const navLinks = document.querySelector(".navbar-link")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script> 
+
 </body>
 </html>
