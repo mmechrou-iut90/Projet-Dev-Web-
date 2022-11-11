@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap');
 
+body{
+    font-family: 'Public Sans';
+}
 .groupe-logo{
 	display: flex;
 	flex-direction : row;
@@ -47,5 +50,8 @@
 }
 .fontsize{
     font-size: 56px;
-    
+}
+footer ul{
+    margin: 0;
+    box-sizing: border-box;
 }
