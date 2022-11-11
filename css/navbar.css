@@ -1,10 +1,17 @@
 @import url('https://rsms.me/inter/inter.css');
 
-header{
+#header1{
     padding-top: 18px;
     padding-bottom: 18px;
     background-color: #0D0D0D;
     border-bottom: 1px solid white;
+}
+
+#header2{
+    padding: 0;
+    background-color: #0D0D0D;
+    border-bottom: 1px solid white;
+    margin: -8px;
 }
 
 .navbar-container{
@@ -18,6 +25,8 @@ header{
     display: flex;
     align-items: center;
     gap: 3vw;
+    list-style-type: none;
+    
 }
 
 .navbar-link{
@@ -27,7 +36,7 @@ header{
 }
 
 
-a{
+.lienDiffPage{
     font-size: 17px;
     text-decoration: none;
     color: white;
@@ -161,7 +170,4 @@ a{
      .search{
         display: none;
     }
-
-
-
 }

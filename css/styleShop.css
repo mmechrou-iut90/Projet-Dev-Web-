@@ -64,7 +64,6 @@ h1 {
 #main {
     margin: auto 145px;
     margin-top: 50px;
-
 }
 
 #filter {
@@ -74,10 +73,13 @@ h1 {
 }
 
 .titles-filter {
-    margin-top: 20px;
     font-size: 14px;
     margin-bottom: 10px;
     font-weight: 700;
+}
+
+.color-title{
+    margin-top: 20px;
 }
 
 .color {
@@ -89,36 +91,15 @@ h1 {
     margin-top: 10px;
 }
 
+.color2 {background-color: white;}
+.color3 {background-color: rgb(0, 68, 127);}
+.color4 {background-color: rgb(211, 219, 59);}
+.color5 {background-color: rgb(170, 170, 170);}
+.color6 {background-color: rgb(192, 133, 81);}
+.color7 {background-color: rgb(234, 142, 178);}
+.color8 {background-color: rgb(255, 0, 0);}
 
-.color2 {
-    background-color: white;
-}
-
-.color3 {
-    background-color: rgb(0, 68, 127);
-}
-
-.color4 {
-    background-color: rgb(211, 219, 59);
-}
-
-.color5 {
-    background-color: rgb(170, 170, 170);
-}
-
-.color6 {
-    background-color: rgb(192, 133, 81);
-}
-
-.color7 {
-    background-color: rgb(234, 142, 178);
-}
-
-.color8 {
-    background-color: rgb(255, 0, 0);
-}
-
-.row {
+.row-colors {
     display: flex;
     gap: 10px;
 }
@@ -132,7 +113,6 @@ h1 {
     appearance: none;
     padding: 7px;
     border: solid 1px black;
-
     margin-right: 10px;
 }
 
@@ -143,11 +123,11 @@ h1 {
 }
 
 .square-checkbox:checked {
-    background-color: #0D0D0D;
+    background-color: #000000;
 }
 
 .card-desc {
-    margin: 3px 0;
+    margin: 6px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,20 +138,11 @@ h1 {
     font-weight: 400;
     float: right;
     margin-top: 15px;
-
 }
 
 select {
     border: none;
     font-weight: 700;
-}
-
-select:active {
-    border: none;
-}
-
-#products {
-    float: right;
 }
 
 #select-product {
@@ -188,9 +159,8 @@ select:active {
 #cards {
     margin-left: 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 1fr);
-    grid-column-gap: 5vw;
-    grid-row-gap: 20px;
+    grid-column-gap: 6vw;
+    grid-row-gap: 30px;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -199,41 +169,13 @@ select:active {
     display: flex;
 }
 
-.card1 {
-    grid-area: 2 / 2 / 3 / 3;
-}
+.card1 {grid-area: 2 / 2 / 3 / 3;}
+.card2 {grid-area: 2 / 3 / 3 / 4;}
+.card3 {grid-area: 2 / 4 / 3 / 5;}
+.card4 {grid-area: 3 / 2 / 4 / 3;}
+.card5 {grid-area: 3 / 3 / 4 / 4;}
+.card6 {grid-area: 3 / 4 / 4 / 5;}
 
-.card2 {
-    grid-area: 2 / 3 / 3 / 4;
-}
-
-.card3 {
-    grid-area: 2 / 4 / 3 / 5;
-}
-
-.card4 {
-    grid-area: 3 / 2 / 4 / 3;
-}
-
-.card5 {
-    grid-area: 3 / 3 / 4 / 4;
-
-}
-
-.card6 {
-    grid-area: 3 / 4 / 4 / 5;
-}
-
-.card7 {
-    grid-area: 1 / 4 / 2 / 5;
-    margin-left: 100px;
-    margin-top: -70px;
-    margin-bottom: 30px;
-}
-.card8{
-    grid-area: 1 / 1 / 2 / 2;
-
-}
 .load-more {
     grid-area: 4 / 3 / 5 / 4;
     margin-top: 30px;
@@ -258,7 +200,6 @@ img {
     padding: 5px 0;
     font-size: 17px;
     font-weight: 700;
-
 }
 
 .color:hover {
@@ -270,42 +211,26 @@ img {
     font-weight: 400;
 }
 
-
 /* ------ RESPONSIVE ------ */
 
 @media (max-width: 1280px) {
-    .card1 {
-        grid-area: 2 / 2 / 3 / 3;
-    }
+    .card1 {grid-area: 2 / 2 / 3 / 3;}
+    .card2 {grid-area: 2 / 3 / 3 / 4;}
+    .card3 {grid-area: 3 / 2 / 4 / 3;}
+    .card4 {grid-area: 3 / 3 / 4 / 4;}
+    .card5 {grid-area: 4 / 2 / 5 / 3;}
+    .card6 {grid-area: 4 / 3 / 5 / 4;}
+    .load-more {grid-area: 5 / 2 / 6 / 3;}
+}
 
-    .card2 {
-        grid-area: 2 / 3 / 3 / 4;
-    }
-
-    .card3 {
-        grid-area: 3 / 2 / 4 / 3;
-    }
-
-    .card4 {
-        grid-area: 3 / 3 / 4 / 4;
-    }
-
-    .card5 {
-        grid-area: 4 / 2 / 5 / 3;
-
-    }
-
-    .card6 {
-        grid-area: 4 / 3 / 5 / 4;
-    }
-
-    .load-more {
-        grid-area: 5 / 2 / 6 / 3;
-    }
-    .card7 {
-        grid-area: 1 / 3 / 2 / 4;
-    }
-
+@media (max-width: 900px) {
+    .card1 { grid-area: 1 / 3 / 2 / 4; }
+    .card2 { grid-area: 2 / 3 / 3 / 4; }
+    .card3 { grid-area: 3 / 3 / 4 / 4; }
+    .card4 { grid-area: 4 / 3 / 5 / 4; }
+    .card5 { grid-area: 5 / 3 / 6 / 4; }
+    .card6 { grid-area: 6 / 3 / 7 / 4; }
+    .card7 { grid-area: 7 / 3 / 8 / 4; }
 }
 
 @media (max-width: 700px) {
@@ -368,7 +293,7 @@ img {
         margin-left: 30px;
     }
 
-    .row {
+    .row-colors {
         gap: 30px;
     }
 
