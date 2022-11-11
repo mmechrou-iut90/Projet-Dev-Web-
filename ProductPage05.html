@@ -13,8 +13,11 @@
         <div class="box">
           <div class="block-left" >
             <div class="card">
-                    <img src="./img/montre5.webp" alt="image de montre" id="img">
-
+                <div class="flex-card">
+                    <span class="material-symbols-outlined">arrow_back_ios</span>
+                    <div class="img-page"><img src="./img/montre5.webp" alt="image de montre" id="img"></div>
+                    <div class="arrow"><span class="material-symbols-outlined arrow">arrow_forward_ios</span></div>
+                </div>
             </div>
           </div>
           <div class="block-right">
@@ -22,7 +25,11 @@
             <p id="prix">299€</p>
             <p id="texte">Elle dispose d’une lunette tournante unidirectionnelle et d’un bracelet Oyster à larges mailles. La toute dernière génération de Submariner et de Submariner Date reste fidèle au modèle original lancé en 1953. La Submariner marque un tournant historique dans le monde de l’horlogerie et s’impose rapidement parmi les montres de plongée.</p>
                         <div class="box-boutton">
-                            <input id="nombre" value="1"/>
+                            <div id="nombre">
+                                <button id="moins" onclick="minus()"> - </button>
+                                <div id="compting">1</div>
+                                <button id="plus" onclick="plus()"> + </button>
+                            </div>
                             <select name="taille" id="taille">
                                     <option value="question">taille ?</option>
                                     <option value="17cm">17cm</option>
@@ -33,16 +40,12 @@
                         </div>
 
             <p class="annotation">taille du bracelet de base : 20cm</p>
-            <div class="box-boutton">
-                <button id="panier">Add to Cart</button>
-                <button id="achat">Buy Now</button>
+            <div class="box-boutton-bas">
+                <a href="cart_1.html" id="panier" target="blank_">Add_to_Cart</a>
+                <a id="achat">Buy_Now</a>
             </div>
           </div>
         </div>
-  <span class="material-symbols-outlined">arrow_forward_ios</span>
-  <span class="material-symbols-outlined">arrow_back_ios</span>
-    <span class="material-symbols-outlined">add</span>
-    <span class="material-symbols-outlined">remove</span>
 
     <footer>
         <div class="sign-up">

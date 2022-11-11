@@ -15,7 +15,6 @@
   margin: 0% 0% 5% ;
 }
 
-
 #img{
   width: 500px;
   height: 500px;
@@ -30,22 +29,58 @@
   margin: 0% 2% 5%;
 }
 
+#titre{
+  font-size: 36px;
+}
+
+#prix{
+  font-size: 24px;
+}
 
 #texte{
+  font-size: 17px;
   width: 350px;
   margin-right: 5%;
 }
 
+.box-boutton{
+  width: 300px;
+  height: 60px;
+  display: inline-flex;
+}
+
+#moins{
+  background-color: white;
+  border: none;
+  font-size: 10px ;
+  cursor: pointer;
+}
+
+#plus{
+  background-color: white;
+  border: none;
+  font-size: 10px ;
+  cursor: pointer;
+}
+
 #nombre{
-  text-align: center;
+  justify-content: center;
   width: 150px;
   height: 15px;
+  display: flex;
+  border: solid;
+  border-width: 1px;
+  height: 19px;
+  margin-right: 15px;
 }
+
+
 
 #taille{
   text-align: center;
   width: 150px;
   height: 21px;
+  display: flex;
 
 }
 
@@ -53,13 +88,16 @@
   color: grey;
 }
 
+.box-boutton-bas{
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
 #panier{
   background-color: black;
   color: white;
   margin: 1% 1% 1% 0;
   border: solid ;
-  width: 150px;
-  height: 50px;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
@@ -70,8 +108,7 @@
   color: white;
   margin: 1%;
   border: solid  ;
-  width: 150px;
-  height: 50px;
+
   padding: 10px;
   border-radius: 5px;
 
@@ -95,9 +132,9 @@ cursor: pointer;
   cursor: pointer;
 }
 
-.material-symbols-outlined:hover{
+.material-symbols-outlined{
   margin: none;
- border-radius: 50px;
+  border-radius: 50px;
   color: white;
   cursor: pointer;
   background-color: black;
@@ -111,16 +148,12 @@ cursor: pointer;
   }
 
   .box-boutton{
-    width: 100px;
+    width: 50px;
   }
 
   #texte{
     width: auto;
     margin-right: 5%;
-  }
-
-  #nombre{
-    margin-bottom: 10px;
   }
 
   #nombre{
@@ -133,14 +166,13 @@ cursor: pointer;
     text-align: center;
     width: 150px;
     height: 21px;
+    margin-top: 10px;
   }
 
   #panier{
     background-color: black;
     color: white;
     border: none;
-    width: 150px;
-    height: 50px;
     margin-bottom: 10px;
   }
 
@@ -148,8 +180,7 @@ cursor: pointer;
     background-color: blue;
     color: white;
     border: none;
-    width: 150px;
-    height: 50px;
+    border-spacing: 20px;
   }
 
 }
