@@ -5,6 +5,7 @@
 	flex-direction : row;
 	justify-content: center;
     flex-wrap: wrap;
+    gap : 30px;
 	}
 .div-big-image{
     display: flex;
@@ -22,13 +23,19 @@
     padding-right: 1cm;
     padding-top: 0.3cm;
     padding-bottom: 0.3cm;
+    text-decoration: none ;
 
+}
+.lien:hover{
+    background-color: black;
+    color: white ;
 }
 .le-texte{
     display: flex;
     flex-direction : column;
     align-items: center;
     justify-content: center;
+    margin-top : 66px;
     
 }
 
@@ -36,5 +43,9 @@
 {
     font-family: 'Public Sans';
     text-align: center;
+    
+}
+.fontsize{
+    font-size: 56px;
     
 }
