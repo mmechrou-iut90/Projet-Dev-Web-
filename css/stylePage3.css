@@ -49,6 +49,7 @@
   display: inline-flex;
 }
 
+
 #moins{
   background-color: white;
   border: none;
@@ -79,7 +80,7 @@
 #taille{
   text-align: center;
   width: 150px;
-  height: 21px;
+  height: 22px;
   display: flex;
 
 }
@@ -101,6 +102,8 @@
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
+  width: 48%;
+  text-align: center;
 }
 
 #achat{
@@ -108,9 +111,11 @@
   color: white;
   margin: 1%;
   border: solid  ;
-
   padding: 10px;
   border-radius: 5px;
+  width: 48%;
+  text-align: center;
+
 
 }
 
@@ -148,7 +153,11 @@ cursor: pointer;
   }
 
   .box-boutton{
-    width: 50px;
+    margin-left: 75px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   #texte{
@@ -157,16 +166,21 @@ cursor: pointer;
   }
 
   #nombre{
-    text-align: center;
-    width: 142px;
+    justify-content: center;
+    width: 150px;
     height: 15px;
+    display: flex;
+    border: solid;
+    border-width: 1px;
+    height: 19px;
+    margin-right: 15px;
   }
 
   #taille{
     text-align: center;
     width: 150px;
-    height: 21px;
-    margin-top: 10px;
+    height: 22px;
+    margin-top: 5px;
   }
 
   #panier{
@@ -174,6 +188,7 @@ cursor: pointer;
     color: white;
     border: none;
     margin-bottom: 10px;
+    width: 100%
   }
 
   #achat{
@@ -181,6 +196,8 @@ cursor: pointer;
     color: white;
     border: none;
     border-spacing: 20px;
+    margin-bottom: 10px;
+    width: 100%
   }
 
 }
@@ -228,10 +245,30 @@ cursor: pointer;
     height: 21px;
   }
 
+  .annotation{
+    margin-bottom: 50px;
+  }
+
   .box-boutton{
     width: auto;
     align-content: center;
     text-align: center;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+
+  #nombre{height: 19px}
+
+  #taille{height: 22px}
+
+  #panier{
+    width: 70%;
+  }
+
+  #achat{
+    width: 50%;
   }
 
 
